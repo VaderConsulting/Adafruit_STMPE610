@@ -1,16 +1,31 @@
 # Adafruit_STMPE610
 
-Arduino sketch or library from the Arduino archive.
+Arduino library for STMPE610/811 resistive touch screen controllers. Original author: Adafruit. This is Dave Robinson's working copy from the Arduino `libraries` tree. Version recorded in `library.properties`: 1.1.4. Upstream: <https://github.com/adafruit/Adafruit_STMPE610>.
 
-## Contents
+**Language:** C++ / Arduino  
+**Target:** Arduino (*)  
+**Output:** Arduino library
 
-- `examples/TouchTest/TouchTest.ino`
-- `library.properties`
+## Solution structure
+
+| Project | Language | Type | Purpose |
+|---------|----------|------|---------|
+| `Adafruit STMPE610` | C++ / Arduino | library | Arduino library for STMPE610/811 resistive touch screen controllers |
+| `TouchTest` | C++ / Arduino | example sketch | `examples/TouchTest/TouchTest.ino` |
+
+## How to open
+
+Install this folder as an Arduino library (Sketch → Include Library → Add .ZIP Library, or copy into `libraries/Adafruit_STMPE610`). Open any `examples/*.ino` from the Arduino IDE.
 
 ## Attribution and provenance
 
-- No third-party source-code attribution markers were identified in assembly/package metadata.
+- **Original author / maintainer:** Adafruit
+- **library.properties name:** Adafruit STMPE610
+- **Version:** 1.1.4
+- **Upstream URL:** <https://github.com/adafruit/Adafruit_STMPE610>
+- **Category:** Display
+- This repository is Dave Robinson's working copy for catalogue/reference; authorship stays with the original authors.
 
 ## License
 
-MIT. See `LICENSE`.
+Original upstream license terms in this tree (where recorded). This repository does not claim authorship of the upstream library. See `THIRD_PARTY_NOTICES.md`. The `LICENSE` file added at import is a VaderConsulting MIT wrapper and does not replace upstream terms.
